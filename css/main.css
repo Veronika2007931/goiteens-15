@@ -530,6 +530,8 @@ address {
 }
 
 .footer-contacts {
+  height: 81px;
+  width: 231px;
   margin-right: 70px;
 }
 
@@ -631,6 +633,16 @@ address {
   left: 5px;
 }
 
+.footerline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
 input::-webkit-input-placeholder {
   left: 17px;
 }
@@ -668,6 +680,8 @@ input::placeholder {
           align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  margin-top: 20px;
+  margin-left: 10px;
 }
 
 .send-icon {

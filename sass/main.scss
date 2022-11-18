@@ -520,6 +520,8 @@ footer{
    }
    
    .footer-contacts {
+    height: 81px;
+    width: 231px;
        margin-right: 70px;
      }
 
@@ -571,6 +573,7 @@ footer{
     }
    
     .footer-input{
+        
         width: 450px;
         height: 50px;
         border-radius:4px;
@@ -579,7 +582,7 @@ footer{
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         display: flex;
         margin-top:20px;
-        
+       
         outline: none;
     }
     .footer-input::placeholder{
@@ -588,6 +591,11 @@ footer{
         
     }
     .footerline{
+        display: flex;
+        flex-direction: row;
+      
+    
+       
     
     }
   
@@ -597,6 +605,7 @@ footer{
     }
 
     .footer-button{
+        
         width: 200px;
         height: 50px;
         background: var(--accent-color);
@@ -610,6 +619,8 @@ footer{
         align-items: center;
         text-align: center;
         letter-spacing: 0.06em;
+        margin-top: 20px;
+        margin-left: 10px;
 
     }
 
